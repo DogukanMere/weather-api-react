@@ -10,4 +10,4 @@ You can check live website here: [React Weather API Application](https://jovial-
 
 ### Image
 
-![Weather API](https://raw.githubusercontent.com/DogukanMere/weather-api-react/main/public/app.png)
+![Weather API](https://raw.githubusercontent.com/DogukanMere/weather-api-react/main/public/app_ss.jpg)
