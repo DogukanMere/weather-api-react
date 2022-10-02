@@ -1,5 +1,13 @@
 import React, { useState } from 'react';
-import { Container, Row, Col, Form, Button, Image } from 'react-bootstrap';
+import {
+  Container,
+  Row,
+  Col,
+  Form,
+  Button,
+  Image,
+  Alert,
+} from 'react-bootstrap';
 import axios from 'axios';
 
 const WeatherResult = () => {
@@ -51,7 +59,13 @@ const WeatherResult = () => {
           Search
         </Button>
       </Form>
-      {error ? <h2 className='text-white'>{error}</h2> : ''}
+      {error ? (
+        <Alert variant='light' className='mt-3 m-auto py-2 fw-bold alert'>
+          {error}
+        </Alert>
+      ) : (
+        ''
+      )}
       {loading && (
         <>
           <Row className='mt-4 text-white'>

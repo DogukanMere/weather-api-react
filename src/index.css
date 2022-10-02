@@ -31,6 +31,10 @@ html {
   font-size: 0.8rem;
 }
 
+.alert {
+  max-width: 15rem;
+}
+
 @media screen and (max-width: 500px) {
   .fs-7 {
     font-size: 3.5rem;
